@@ -252,9 +252,9 @@ Dataset resource: https://crisisnlp.qcri.org/crisismmd
 
 ## 👨‍💻 Author
 
-**Nikhil Kumar**
+**SAMARTH SINHA **
 
-GitHub: [@nikhil821023-commit](https://github.com/nikhil821023-commit)
+GitHub: [@samarthsinha07](https://github.com/samarthsinha07)
 
 ---
 
