@@ -1,6 +1,13 @@
-# 🌍 Crisis-Fusion: Multimodal Disaster Information Classification
+# 🌍 Crisis-Fusion: Multimodal Disaster Intelligence Dashboard
 
-A deep learning project for classifying disaster-related social media posts using **text and images** from the CrisisMMD v2.0 dataset. The project evaluates transformer-based text and image models, combines their predictions using multimodal score fusion, and provides an interactive Gradio demo for humanitarian information classification.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://disastermanager.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-FINALYR__PROJECT-blue.svg)](https://github.com/samarthsinha07/FINALYR_PROJECT)
+[![Python](https://img.shields.io/badge/Python-3.10-green.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Multimodal-orange.svg)](https://pytorch.org/)
+
+> **🚀 Live Deployed Application:** [https://disastermanager.streamlit.app/](https://disastermanager.streamlit.app/)
+
+A deep learning project for classifying disaster-related social media posts using **text and images** from the CrisisMMD v2.0 dataset. The project evaluates transformer-based text and image models, combines their predictions using multimodal score fusion, and provides an interactive web dashboard for real-time disaster intelligence.
 
 ## 📌 Overview
 
@@ -104,31 +111,24 @@ The separately evaluated cross-modal fusion checkpoint achieved:
 
 The 50/50 score-fusion model achieved higher Task 1a accuracy in these experiments.
 
-## 🖥️ Interactive Demo
+## 🌐 Interactive Web Application & Live Deployment
 
-The project includes a Gradio application for **Task 2 — Humanitarian Information Classification**.
+The complete disaster intelligence dashboard is deployed live on Streamlit Community Cloud:
 
-**Demo workflow:**
+👉 **[https://disastermanager.streamlit.app/](https://disastermanager.streamlit.app/)**
 
-1. Enter disaster-related text.
-2. Upload a corresponding disaster image.
-3. Run the prediction.
-4. View the confidence distribution across eight humanitarian categories.
+### Dashboard Modules & Capabilities:
+- **📊 Overview & Telemetry:** Real-time hardware diagnostics, checkpoint registry, test corpus distributions, and multimodal benchmark gains.
+- **🔮 Real-Time Multimodal Prediction:** Enter tweet text, upload an image (or select built-in CrisisMMD benchmark presets), adjust fusion weights ($\alpha$), and view real-time class confidence distributions with modality agreement detection.
+- **🖼️ Vision & Image Modality Analysis:** Detailed image inspection (resolution, aspect ratio, ImageNet normalization) and unimodal visual inference.
+- **📈 Model Evaluation & Benchmarks:** Interactive confusion matrices across tasks, Task 1a cross-modal ablation analysis, and one-click CSV report exports.
+- **⚠️ Damage Severity Analysis (Task 3):** Class imbalance deep dive and mitigation benchmark results (class weighting vs. data augmentation).
+- **📑 Research & Reference Paper Comparison:** Transparent side-by-side comparison with published literature (*Shetty et al., Springer 2024/2025*).
 
-The demo uses BERTweet for text classification and ViT for image classification, combining their probability distributions using 50/50 score fusion.
-
-### Humanitarian Categories
-
-- Affected individuals
-- Infrastructure and utility damage
-- Injured or dead people
-- Missing or found people
-- Not humanitarian
-- Other relevant information
-- Rescue, volunteering or donation effort
-- Vehicle damage
-
-**Demo link:** The Gradio share URL is temporary. Start the application using the instructions below to generate a new link when needed.
+### Standalone Task 2 Gradio Demo:
+In addition to the main Streamlit dashboard, a standalone Gradio interface is available for **Task 2 — Humanitarian Information Classification**:
+- Evaluates 8 humanitarian categories (affected individuals, infrastructure damage, rescue efforts, etc.).
+- Launch locally with: `python demo_task2.py --share`.
 
 ## 🗂️ Project Structure
 

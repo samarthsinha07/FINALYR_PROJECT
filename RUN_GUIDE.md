@@ -1,5 +1,7 @@
 # 🚀 Crisis-Fusion: Setup & Execution Guide
 
+> **🌐 Live Deployed Application:** [https://disastermanager.streamlit.app/](https://disastermanager.streamlit.app/)
+
 This document provides step-by-step instructions to run the **Disaster Management and Recommendation System** dashboard, prepare data, train model checkpoints, and evaluate multimodal deep learning pipelines on the CrisisMMD benchmark.
 
 ---
