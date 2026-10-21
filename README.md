@@ -1,11 +1,7 @@
 # 🌍 Crisis-Fusion: Multimodal Disaster Intelligence Dashboard
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://disastermanager.streamlit.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-FINALYR__PROJECT-blue.svg)](https://github.com/samarthsinha07/FINALYR_PROJECT)
 [![Python](https://img.shields.io/badge/Python-3.10-green.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-Multimodal-orange.svg)](https://pytorch.org/)
-
-> **🚀 Live Deployed Application:** [https://disastermanager.streamlit.app/](https://disastermanager.streamlit.app/)
 
 A deep learning project for classifying disaster-related social media posts using **text and images** from the CrisisMMD v2.0 dataset. The project evaluates transformer-based text and image models, combines their predictions using multimodal score fusion, and provides an interactive web dashboard for real-time disaster intelligence.
 
